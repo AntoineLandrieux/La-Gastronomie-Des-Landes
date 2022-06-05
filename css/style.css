@@ -136,7 +136,8 @@ section.mais  {
 }
 
 section.viande {
-  background: url("../img/boeuf.jpg") 100% 100% no-repeat repeat-x;
+  background-repeat: no-repeat;
+  background: url("../img/boeuf.jpg") 100% 100% repeat-x;
   color: #fff;
   z-index: 1;
 }
