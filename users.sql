@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS users (
+  int id(11) NOT NULL PRIMARY KEY,
+  VARCHAR pseudo(255) NOT NULL
+);
